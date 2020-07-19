@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication_types | Tejas Mahajan</title>
-    <link>tjdevworks.netlify.app/publication_types/</link>
-      <atom:link href="tjdevworks.netlify.app/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <link>tjdevworks.github.io/publication_types/</link>
+      <atom:link href="tjdevworks.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/tjdevworks.netlify.app/images/icon_hu02480140fcbb73436b8ade9a70a8d371_7324_512x512_fill_lanczos_center_2.png</url>
+      <url>/tjdevworks.github.io/images/icon_hu02480140fcbb73436b8ade9a70a8d371_7324_512x512_fill_lanczos_center_2.png</url>
       <title>Publication_types</title>
-      <link>tjdevworks.netlify.app/publication_types/</link>
+      <link>tjdevworks.github.io/publication_types/</link>
     </image>
     
   </channel>
