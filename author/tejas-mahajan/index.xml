@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tejas Mahajan</title>
+    <link>tjdevworks.netlify.app/author/tejas-mahajan/</link>
+      <atom:link href="tjdevworks.netlify.app/author/tejas-mahajan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tejas Mahajan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/tjdevworks.netlify.app/images/icon_hu02480140fcbb73436b8ade9a70a8d371_7324_512x512_fill_lanczos_center_2.png</url>
+      <title>Tejas Mahajan</title>
+      <link>tjdevworks.netlify.app/author/tejas-mahajan/</link>
+    </image>
+    
+  </channel>
+</rss>
