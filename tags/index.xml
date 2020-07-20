@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Tejas Mahajan</title>
-    <link>tjdevworks.netlify.app/tags/</link>
-      <atom:link href="tjdevworks.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>tjdevworks.github.io/tags/</link>
+      <atom:link href="tjdevworks.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>tjdevworks.netlify.app/img/profile_tejas.jpeg</url>
+      <url>tjdevworks.github.io/img/profile_tejas.jpeg</url>
       <title>Tags</title>
-      <link>tjdevworks.netlify.app/tags/</link>
+      <link>tjdevworks.github.io/tags/</link>
     </image>
     
   </channel>
