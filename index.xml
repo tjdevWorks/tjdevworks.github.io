@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tejas Mahajan</title>
-    <link>tjdevworks.netlify.app/</link>
-      <atom:link href="tjdevworks.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <link>tjdevworks.github.io/</link>
+      <atom:link href="tjdevworks.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Tejas Mahajan</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Jul 2020 17:59:20 +0000</lastBuildDate>
     <image>
-      <url>tjdevworks.netlify.app/img/profile_tejas.jpeg</url>
+      <url>tjdevworks.github.io/img/profile_tejas.jpeg</url>
       <title>Tejas Mahajan</title>
-      <link>tjdevworks.netlify.app/</link>
+      <link>tjdevworks.github.io/</link>
     </image>
     
     <item>
       <title>Wtf</title>
-      <link>tjdevworks.netlify.app/post/wtf/</link>
+      <link>tjdevworks.github.io/post/wtf/</link>
       <pubDate>Mon, 20 Jul 2020 17:59:20 +0000</pubDate>
-      <guid>tjdevworks.netlify.app/post/wtf/</guid>
+      <guid>tjdevworks.github.io/post/wtf/</guid>
       <description>&lt;p&gt;Teststsrsdfsa&lt;/p&gt;
 </description>
     </item>
