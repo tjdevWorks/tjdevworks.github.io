@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Tejas Mahajan</title>
-    <link>tjdevworks.github.io/categories/</link>
-      <atom:link href="tjdevworks.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>tjdevworks.netlify.app/categories/</link>
+      <atom:link href="tjdevworks.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>tjdevworks.github.io/img/profile_tejas.jpeg</url>
+      <url>tjdevworks.netlify.app/img/profile_tejas.jpeg</url>
       <title>Categories</title>
-      <link>tjdevworks.github.io/categories/</link>
+      <link>tjdevworks.netlify.app/categories/</link>
     </image>
     
   </channel>

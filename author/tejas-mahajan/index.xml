@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tejas Mahajan</title>
-    <link>tjdevworks.github.io/author/tejas-mahajan/</link>
-      <atom:link href="tjdevworks.github.io/author/tejas-mahajan/index.xml" rel="self" type="application/rss+xml" />
+    <link>tjdevworks.netlify.app/author/tejas-mahajan/</link>
+      <atom:link href="tjdevworks.netlify.app/author/tejas-mahajan/index.xml" rel="self" type="application/rss+xml" />
     <description>Tejas Mahajan</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>tjdevworks.github.io/img/profile_tejas.jpeg</url>
+      <url>tjdevworks.netlify.app/img/profile_tejas.jpeg</url>
       <title>Tejas Mahajan</title>
-      <link>tjdevworks.github.io/author/tejas-mahajan/</link>
+      <link>tjdevworks.netlify.app/author/tejas-mahajan/</link>
     </image>
     
   </channel>

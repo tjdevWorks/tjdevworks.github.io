@@ -5,14 +5,14 @@
   "theme_color": "#2962ff",
   "background_color": "#2962ff",
   "icons": [{
-    "src": "/tjdevworks.github.io/images/icon_hub02f11719440bf94480d1ab9e24c040b_198478_192x192_fill_lanczos_center_2.png",
+    "src": "/tjdevworks.netlify.app/images/icon_hub02f11719440bf94480d1ab9e24c040b_198478_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",
     "type": "image/png"
     }, {
-    "src": "/tjdevworks.github.io/images/icon_hub02f11719440bf94480d1ab9e24c040b_198478_512x512_fill_lanczos_center_2.png",
+    "src": "/tjdevworks.netlify.app/images/icon_hub02f11719440bf94480d1ab9e24c040b_198478_512x512_fill_lanczos_center_2.png",
     "sizes": "512x512",
     "type": "image/png"
      }],
   "display": "standalone",
-  "start_url": "/tjdevworks.github.io/?utm_source=web_app_manifest"
+  "start_url": "/tjdevworks.netlify.app/?utm_source=web_app_manifest"
 }

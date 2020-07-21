@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Tejas Mahajan</title>
-    <link>tjdevworks.github.io/post/</link>
-      <atom:link href="tjdevworks.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <title>Test Blog | Tejas Mahajan</title>
+    <link>tjdevworks.netlify.app/post/</link>
+      <atom:link href="tjdevworks.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Test Blog</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Jul 2020 17:30:39 +0000</lastBuildDate>
     <image>
-      <url>tjdevworks.github.io/img/profile_tejas.jpeg</url>
-      <title>Posts</title>
-      <link>tjdevworks.github.io/post/</link>
+      <url>tjdevworks.netlify.app/img/profile_tejas.jpeg</url>
+      <title>Test Blog</title>
+      <link>tjdevworks.netlify.app/post/</link>
     </image>
+    
+    <item>
+      <title>Wtf</title>
+      <link>tjdevworks.netlify.app/post/wtf/</link>
+      <pubDate>Mon, 20 Jul 2020 17:59:20 +0000</pubDate>
+      <guid>tjdevworks.netlify.app/post/wtf/</guid>
+      <description>&lt;p&gt;Teststsrsdfsa&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

@@ -30,7 +30,7 @@
   <meta name="description" content="Software Engineer (Machine Learning)">
 
   
-  <link rel="alternate" hreflang="en-us" href="tjdevworks.github.io/publication_types/">
+  <link rel="alternate" hreflang="en-us" href="tjdevworks.netlify.app/publication_types/">
 
   
 
@@ -196,13 +196,51 @@
   
   
   
-  <link rel="stylesheet" href="/tjdevworks.github.io/css/academic.css">
+  <link rel="stylesheet" href="/tjdevworks.netlify.app/css/academic.css">
 
   
 
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=https%3a%2f%2fwww.googletagmanager.com%2fgtag%2fjs%3fid%3dUA-101116183-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'https:\/\/www.googletagmanager.com\/gtag\/js?id=UA-101116183-2', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -210,14 +248,14 @@
   
 
   
-  <link rel="alternate" href="tjdevworks.github.io/publication_types/index.xml" type="application/rss+xml" title="Tejas Mahajan">
+  <link rel="alternate" href="tjdevworks.netlify.app/publication_types/index.xml" type="application/rss+xml" title="Tejas Mahajan">
   
 
-  <link rel="manifest" href="/tjdevworks.github.io/index.webmanifest">
-  <link rel="icon" type="image/png" href="/tjdevworks.github.io/images/icon_hub02f11719440bf94480d1ab9e24c040b_198478_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/tjdevworks.github.io/images/icon_hub02f11719440bf94480d1ab9e24c040b_198478_192x192_fill_lanczos_center_2.png">
+  <link rel="manifest" href="/tjdevworks.netlify.app/index.webmanifest">
+  <link rel="icon" type="image/png" href="/tjdevworks.netlify.app/images/icon_hub02f11719440bf94480d1ab9e24c040b_198478_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/tjdevworks.netlify.app/images/icon_hub02f11719440bf94480d1ab9e24c040b_198478_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="tjdevworks.github.io/publication_types/">
+  <link rel="canonical" href="tjdevworks.netlify.app/publication_types/">
 
   
   
@@ -235,10 +273,10 @@
   <meta property="twitter:creator" content="@tjdevworks">
   
   <meta property="og:site_name" content="Tejas Mahajan">
-  <meta property="og:url" content="tjdevworks.github.io/publication_types/">
+  <meta property="og:url" content="tjdevworks.netlify.app/publication_types/">
   <meta property="og:title" content="Publication_types | Tejas Mahajan">
-  <meta property="og:description" content="Software Engineer (Machine Learning)"><meta property="og:image" content="tjdevworks.github.io/img/profile_tejas.jpeg">
-  <meta property="twitter:image" content="tjdevworks.github.io/img/profile_tejas.jpeg"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Software Engineer (Machine Learning)"><meta property="og:image" content="tjdevworks.netlify.app/img/profile_tejas.jpeg">
+  <meta property="twitter:image" content="tjdevworks.netlify.app/img/profile_tejas.jpeg"><meta property="og:locale" content="en-us">
   
     
   
@@ -307,7 +345,7 @@
 
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/tjdevworks.github.io/">Tejas Mahajan</a>
+      <a class="navbar-brand" href="/tjdevworks.netlify.app/">Tejas Mahajan</a>
     </div>
     
 
@@ -320,7 +358,7 @@
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/tjdevworks.github.io/">Tejas Mahajan</a>
+      <a class="navbar-brand" href="/tjdevworks.netlify.app/">Tejas Mahajan</a>
     </div>
     
 
@@ -355,7 +393,65 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/tjdevworks.github.io/#about"><span>Home</span></a>
+          <a class="nav-link " href="/tjdevworks.netlify.app/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/tjdevworks.netlify.app/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/tjdevworks.netlify.app/#contact"><span>Contact</span></a>
         </li>
 
         
@@ -503,7 +599,7 @@
     
     
     
-    <script src="/tjdevworks.github.io/js/academic.min.6f7ce8be710290b8c431bbc97f405d15.js"></script>
+    <script src="/tjdevworks.netlify.app/js/academic.min.6f7ce8be710290b8c431bbc97f405d15.js"></script>
 
     
 

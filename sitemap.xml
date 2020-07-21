@@ -3,39 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>tjdevworks.github.io/authors/</loc>
+    <loc>tjdevworks.netlify.app/</loc>
+    <lastmod>2020-07-20T17:59:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>tjdevworks.github.io/categories/</loc>
+    <loc>tjdevworks.netlify.app/post/wtf/</loc>
+    <lastmod>2020-07-20T17:59:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>tjdevworks.github.io/post/</loc>
+    <loc>tjdevworks.netlify.app/post/</loc>
+    <lastmod>2020-07-20T17:30:39+00:00</lastmod>
   </url>
   
   <url>
-    <loc>tjdevworks.github.io/publication_types/</loc>
+    <loc>tjdevworks.netlify.app/authors/</loc>
   </url>
   
   <url>
-    <loc>tjdevworks.github.io/publication/</loc>
+    <loc>tjdevworks.netlify.app/categories/</loc>
   </url>
   
   <url>
-    <loc>tjdevworks.github.io/talk/</loc>
+    <loc>tjdevworks.netlify.app/publication_types/</loc>
   </url>
   
   <url>
-    <loc>tjdevworks.github.io/tags/</loc>
+    <loc>tjdevworks.netlify.app/publication/</loc>
   </url>
   
   <url>
-    <loc>tjdevworks.github.io/</loc>
+    <loc>tjdevworks.netlify.app/talk/</loc>
   </url>
   
   <url>
-    <loc>tjdevworks.github.io/author/tejas-mahajan/</loc>
+    <loc>tjdevworks.netlify.app/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>tjdevworks.netlify.app/author/tejas-mahajan/</loc>
   </url>
   
 </urlset>
