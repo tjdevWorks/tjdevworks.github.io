@@ -5,7 +5,7 @@
     <link>tjdevworks.github.io/</link>
       <atom:link href="tjdevworks.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Tejas Mahajan</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Jul 2020 17:59:20 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 15 Aug 2020 17:59:20 +0000</lastBuildDate>
     <image>
       <url>tjdevworks.github.io/img/profile_tejas.jpeg</url>
       <title>Tejas Mahajan</title>
@@ -13,11 +13,43 @@
     </image>
     
     <item>
-      <title>Wtf</title>
-      <link>tjdevworks.github.io/post/wtf/</link>
-      <pubDate>Mon, 20 Jul 2020 17:59:20 +0000</pubDate>
-      <guid>tjdevworks.github.io/post/wtf/</guid>
-      <description>&lt;p&gt;Teststsrsdfsa&lt;/p&gt;
+      <title>How we built an inxepensive scalable architecture to cartoonize the world?</title>
+      <link>tjdevworks.github.io/post/cartoonize/</link>
+      <pubDate>Sat, 15 Aug 2020 17:59:20 +0000</pubDate>
+      <guid>tjdevworks.github.io/post/cartoonize/</guid>
+      <description>&lt;p&gt;I have co-written this blog along with my friend Niraj Pandkar, please do give it a read using the link below:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/how-we-built-an-inexpensive-scalable-architecture-to-cartoonize-the-world-8610050f90a0&#34;&gt;https://towardsdatascience.com/how-we-built-an-inexpensive-scalable-architecture-to-cartoonize-the-world-8610050f90a0&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cartoonizer</title>
+      <link>tjdevworks.github.io/project/cartoonize/</link>
+      <pubDate>Mon, 27 Jul 2020 15:34:51 +0530</pubDate>
+      <guid>tjdevworks.github.io/project/cartoonize/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning — Should you be a first mover or fast follower?</title>
+      <link>tjdevworks.github.io/post/firstmover_fastfollower/</link>
+      <pubDate>Thu, 17 Jan 2019 17:59:20 +0000</pubDate>
+      <guid>tjdevworks.github.io/post/firstmover_fastfollower/</guid>
+      <description>&lt;p&gt;Since I had published the blog before I built this site, please use the link below to read it.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://medium.com/datadriveninvestor/machine-learning-should-you-be-a-first-mover-or-fast-follower-8b1b2660e686&#34;&gt;https://medium.com/datadriveninvestor/machine-learning-should-you-be-a-first-mover-or-fast-follower-8b1b2660e686&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PS: Its not a medium partnered blog, it&amp;rsquo;s free to read for everyone.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Understanding Emotional And Effective Components in Advertisements</title>
+      <link>tjdevworks.github.io/project/emotion-ads/</link>
+      <pubDate>Tue, 15 May 2018 15:30:38 +0530</pubDate>
+      <guid>tjdevworks.github.io/project/emotion-ads/</guid>
+      <description>&lt;p&gt;Content to Add:&lt;/p&gt;
+&lt;p&gt;Paper Abstract&lt;/p&gt;
+&lt;p&gt;Paper Link with acceptance email attached in pdf.&lt;/p&gt;
+&lt;p&gt;Link to dataset and cvpr workshop.&lt;/p&gt;
 </description>
     </item>
     

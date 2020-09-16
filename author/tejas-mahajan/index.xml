@@ -5,12 +5,20 @@
     <link>tjdevworks.github.io/author/tejas-mahajan/</link>
       <atom:link href="tjdevworks.github.io/author/tejas-mahajan/index.xml" rel="self" type="application/rss+xml" />
     <description>Tejas Mahajan</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Jul 2020 15:34:51 +0530</lastBuildDate>
     <image>
       <url>tjdevworks.github.io/img/profile_tejas.jpeg</url>
       <title>Tejas Mahajan</title>
       <link>tjdevworks.github.io/author/tejas-mahajan/</link>
     </image>
+    
+    <item>
+      <title>Cartoonizer</title>
+      <link>tjdevworks.github.io/project/cartoonize/</link>
+      <pubDate>Mon, 27 Jul 2020 15:34:51 +0530</pubDate>
+      <guid>tjdevworks.github.io/project/cartoonize/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

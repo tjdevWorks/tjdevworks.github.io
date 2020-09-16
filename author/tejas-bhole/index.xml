@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tejas Bhole | Tejas Mahajan</title>
+    <link>tjdevworks.github.io/author/tejas-bhole/</link>
+      <atom:link href="tjdevworks.github.io/author/tejas-bhole/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tejas Bhole</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 15 May 2018 15:30:38 +0530</lastBuildDate>
+    <image>
+      <url>tjdevworks.github.io/img/profile_tejas.jpeg</url>
+      <title>Tejas Bhole</title>
+      <link>tjdevworks.github.io/author/tejas-bhole/</link>
+    </image>
+    
+    <item>
+      <title>Understanding Emotional And Effective Components in Advertisements</title>
+      <link>tjdevworks.github.io/project/emotion-ads/</link>
+      <pubDate>Tue, 15 May 2018 15:30:38 +0530</pubDate>
+      <guid>tjdevworks.github.io/project/emotion-ads/</guid>
+      <description>&lt;p&gt;Content to Add:&lt;/p&gt;
+&lt;p&gt;Paper Abstract&lt;/p&gt;
+&lt;p&gt;Paper Link with acceptance email attached in pdf.&lt;/p&gt;
+&lt;p&gt;Link to dataset and cvpr workshop.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
