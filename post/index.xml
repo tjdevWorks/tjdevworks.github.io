@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Tejas Mahajan</title>
-    <link>tjdevworks.github.io/post/</link>
-      <atom:link href="tjdevworks.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tjdevworks.github.io/post/</link>
+      <atom:link href="https://tjdevworks.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Tejas Mahajan © 2021</copyright><lastBuildDate>Sat, 15 Aug 2020 17:59:20 +0000</lastBuildDate>
     <image>
-      <url>/tjdevworks.github.io/media/icon_hub02f11719440bf94480d1ab9e24c040b_198478_512x512_fill_lanczos_center_2.png</url>
+      <url>https://tjdevworks.github.io/media/icon_hub02f11719440bf94480d1ab9e24c040b_198478_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
-      <link>tjdevworks.github.io/post/</link>
+      <link>https://tjdevworks.github.io/post/</link>
     </image>
     
     <item>
       <title>How we built an inxepensive scalable architecture to cartoonize the world?</title>
-      <link>tjdevworks.github.io/post/cartoonize/</link>
+      <link>https://tjdevworks.github.io/post/cartoonize/</link>
       <pubDate>Sat, 15 Aug 2020 17:59:20 +0000</pubDate>
-      <guid>tjdevworks.github.io/post/cartoonize/</guid>
+      <guid>https://tjdevworks.github.io/post/cartoonize/</guid>
       <description>&lt;p&gt;I have co-written this blog along with my friend Niraj Pandkar, please do give it a read using the link below:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/how-we-built-an-inexpensive-scalable-architecture-to-cartoonize-the-world-8610050f90a0&#34;&gt;https://towardsdatascience.com/how-we-built-an-inexpensive-scalable-architecture-to-cartoonize-the-world-8610050f90a0&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -24,9 +24,9 @@
     
     <item>
       <title>Machine Learning — Should you be a first mover or fast follower?</title>
-      <link>tjdevworks.github.io/post/firstmover_fastfollower/</link>
+      <link>https://tjdevworks.github.io/post/firstmover_fastfollower/</link>
       <pubDate>Thu, 17 Jan 2019 17:59:20 +0000</pubDate>
-      <guid>tjdevworks.github.io/post/firstmover_fastfollower/</guid>
+      <guid>https://tjdevworks.github.io/post/firstmover_fastfollower/</guid>
       <description>&lt;p&gt;Since I had published the blog before I built this site, please use the link below to read it.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://medium.com/datadriveninvestor/machine-learning-should-you-be-a-first-mover-or-fast-follower-8b1b2660e686&#34;&gt;https://medium.com/datadriveninvestor/machine-learning-should-you-be-a-first-mover-or-fast-follower-8b1b2660e686&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;PS: Its not a medium partnered blog, it&amp;rsquo;s free to read for everyone.&lt;/p&gt;

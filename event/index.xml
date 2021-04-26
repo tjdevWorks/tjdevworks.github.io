@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks | Tejas Mahajan</title>
-    <link>tjdevworks.github.io/event/</link>
-      <atom:link href="tjdevworks.github.io/event/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tjdevworks.github.io/event/</link>
+      <atom:link href="https://tjdevworks.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Tejas Mahajan © 2021</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>/tjdevworks.github.io/media/icon_hub02f11719440bf94480d1ab9e24c040b_198478_512x512_fill_lanczos_center_2.png</url>
+      <url>https://tjdevworks.github.io/media/icon_hub02f11719440bf94480d1ab9e24c040b_198478_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>tjdevworks.github.io/event/</link>
+      <link>https://tjdevworks.github.io/event/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>tjdevworks.github.io/talk/example-talk/</link>
+      <link>https://tjdevworks.github.io/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>tjdevworks.github.io/talk/example-talk/</guid>
+      <guid>https://tjdevworks.github.io/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.

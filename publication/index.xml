@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Tejas Mahajan</title>
-    <link>tjdevworks.github.io/publication/</link>
-      <atom:link href="tjdevworks.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tjdevworks.github.io/publication/</link>
+      <atom:link href="https://tjdevworks.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Tejas Mahajan © 2021</copyright><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/tjdevworks.github.io/media/icon_hub02f11719440bf94480d1ab9e24c040b_198478_512x512_fill_lanczos_center_2.png</url>
+      <url>https://tjdevworks.github.io/media/icon_hub02f11719440bf94480d1ab9e24c040b_198478_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
-      <link>tjdevworks.github.io/publication/</link>
+      <link>https://tjdevworks.github.io/publication/</link>
     </image>
     
     <item>
       <title>An example conference paper</title>
-      <link>tjdevworks.github.io/publication/example/</link>
+      <link>https://tjdevworks.github.io/publication/example/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>tjdevworks.github.io/publication/example/</guid>
+      <guid>https://tjdevworks.github.io/publication/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

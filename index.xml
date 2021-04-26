@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tejas Mahajan</title>
-    <link>tjdevworks.github.io/</link>
-      <atom:link href="tjdevworks.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tjdevworks.github.io/</link>
+      <atom:link href="https://tjdevworks.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Tejas Mahajan</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Tejas Mahajan © 2021</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>/tjdevworks.github.io/media/icon_hub02f11719440bf94480d1ab9e24c040b_198478_512x512_fill_lanczos_center_2.png</url>
+      <url>https://tjdevworks.github.io/media/icon_hub02f11719440bf94480d1ab9e24c040b_198478_512x512_fill_lanczos_center_2.png</url>
       <title>Tejas Mahajan</title>
-      <link>tjdevworks.github.io/</link>
+      <link>https://tjdevworks.github.io/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>tjdevworks.github.io/talk/example-talk/</link>
+      <link>https://tjdevworks.github.io/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>tjdevworks.github.io/talk/example-talk/</guid>
+      <guid>https://tjdevworks.github.io/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -34,9 +34,9 @@
     
     <item>
       <title>How we built an inxepensive scalable architecture to cartoonize the world?</title>
-      <link>tjdevworks.github.io/post/cartoonize/</link>
+      <link>https://tjdevworks.github.io/post/cartoonize/</link>
       <pubDate>Sat, 15 Aug 2020 17:59:20 +0000</pubDate>
-      <guid>tjdevworks.github.io/post/cartoonize/</guid>
+      <guid>https://tjdevworks.github.io/post/cartoonize/</guid>
       <description>&lt;p&gt;I have co-written this blog along with my friend Niraj Pandkar, please do give it a read using the link below:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/how-we-built-an-inexpensive-scalable-architecture-to-cartoonize-the-world-8610050f90a0&#34;&gt;https://towardsdatascience.com/how-we-built-an-inexpensive-scalable-architecture-to-cartoonize-the-world-8610050f90a0&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -44,9 +44,9 @@
     
     <item>
       <title>Slides</title>
-      <link>tjdevworks.github.io/slides/example/</link>
+      <link>https://tjdevworks.github.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>tjdevworks.github.io/slides/example/</guid>
+      <guid>https://tjdevworks.github.io/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -173,9 +173,9 @@ Three
     
     <item>
       <title>Machine Learning — Should you be a first mover or fast follower?</title>
-      <link>tjdevworks.github.io/post/firstmover_fastfollower/</link>
+      <link>https://tjdevworks.github.io/post/firstmover_fastfollower/</link>
       <pubDate>Thu, 17 Jan 2019 17:59:20 +0000</pubDate>
-      <guid>tjdevworks.github.io/post/firstmover_fastfollower/</guid>
+      <guid>https://tjdevworks.github.io/post/firstmover_fastfollower/</guid>
       <description>&lt;p&gt;Since I had published the blog before I built this site, please use the link below to read it.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://medium.com/datadriveninvestor/machine-learning-should-you-be-a-first-mover-or-fast-follower-8b1b2660e686&#34;&gt;https://medium.com/datadriveninvestor/machine-learning-should-you-be-a-first-mover-or-fast-follower-8b1b2660e686&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;PS: Its not a medium partnered blog, it&amp;rsquo;s free to read for everyone.&lt;/p&gt;
@@ -184,9 +184,9 @@ Three
     
     <item>
       <title>Example Project</title>
-      <link>tjdevworks.github.io/project/example/</link>
+      <link>https://tjdevworks.github.io/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>tjdevworks.github.io/project/example/</guid>
+      <guid>https://tjdevworks.github.io/project/example/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -197,9 +197,9 @@ Three
     
     <item>
       <title>An example conference paper</title>
-      <link>tjdevworks.github.io/publication/example/</link>
+      <link>https://tjdevworks.github.io/publication/example/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>tjdevworks.github.io/publication/example/</guid>
+      <guid>https://tjdevworks.github.io/publication/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -216,9 +216,9 @@ Three
     
     <item>
       <title></title>
-      <link>tjdevworks.github.io/admin/config.yml</link>
+      <link>https://tjdevworks.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>tjdevworks.github.io/admin/config.yml</guid>
+      <guid>https://tjdevworks.github.io/admin/config.yml</guid>
       <description></description>
     </item>
     
