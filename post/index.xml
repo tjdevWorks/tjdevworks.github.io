@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Test Blog | Tejas Mahajan</title>
+    <title>Posts | Tejas Mahajan</title>
     <link>tjdevworks.github.io/post/</link>
       <atom:link href="tjdevworks.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Test Blog</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Jul 2020 17:30:39 +0000</lastBuildDate>
+    <description>Posts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Tejas Mahajan © 2021</copyright><lastBuildDate>Sat, 15 Aug 2020 17:59:20 +0000</lastBuildDate>
     <image>
-      <url>tjdevworks.github.io/img/profile_tejas.jpeg</url>
-      <title>Test Blog</title>
+      <url>/tjdevworks.github.io/media/icon_hub02f11719440bf94480d1ab9e24c040b_198478_512x512_fill_lanczos_center_2.png</url>
+      <title>Posts</title>
       <link>tjdevworks.github.io/post/</link>
     </image>
     
