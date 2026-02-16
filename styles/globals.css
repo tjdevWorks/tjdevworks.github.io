@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: 248 250 252;
+  --color-fg: 15 23 42;
+  --color-card: 255 255 255;
+  --color-border: 148 163 184;
+  --color-accent: 11 116 141;
+  --color-muted: 71 85 105;
+  --bg-grad-a: 30, 64, 175;
+  --bg-grad-b: 8, 145, 178;
+  --bg-grad-a-alpha: 0.12;
+  --bg-grad-b-alpha: 0.1;
+}
+
+[data-theme="dark"] {
+  --color-bg: 2 6 23;
+  --color-fg: 226 232 240;
+  --color-card: 15 23 42;
+  --color-border: 51 65 85;
+  --color-accent: 56 189 248;
+  --color-muted: 148 163 184;
+  --bg-grad-a: 37, 99, 235;
+  --bg-grad-b: 8, 145, 178;
+  --bg-grad-a-alpha: 0.3;
+  --bg-grad-b-alpha: 0.26;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 10% -20%, rgba(var(--bg-grad-a), var(--bg-grad-a-alpha)), transparent 42%),
+    radial-gradient(circle at 100% 120%, rgba(var(--bg-grad-b), var(--bg-grad-b-alpha)), transparent 52%),
+    rgb(var(--color-bg));
+  color: rgb(var(--color-fg));
+}
+
+a {
+  color: inherit;
+}
+
+.prose {
+  max-width: 70ch;
+}
+
+.prose h2,
+.prose h3 {
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+}
+
+.prose p,
+.prose li {
+  color: rgb(var(--color-muted));
+}
+
+section[id] {
+  scroll-margin-top: 96px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
