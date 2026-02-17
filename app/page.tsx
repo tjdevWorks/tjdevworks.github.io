@@ -3,7 +3,6 @@ import { ResumeDownloadButton } from "@/components/resume/ResumeDownloadButton";
 import {
   formatDate,
   getAllBlogPosts,
-  getAllProjects,
   getResumeMetadata,
   getSiteProfile,
   getSocialConfig
@@ -24,6 +23,20 @@ type ExperienceEntry = {
   location: string;
   period: string;
   highlights: string[];
+};
+
+type ProjectLink = {
+  label: string;
+  href: string;
+};
+
+type ProjectEntry = {
+  title: string;
+  description: string;
+  date: string;
+  subtext?: string;
+  image?: string;
+  links: ProjectLink[];
 };
 
 const EDUCATION: EducationEntry[] = [
@@ -96,6 +109,84 @@ const EXPERIENCE: ExperienceEntry[] = [
       "Developed and fine-tuned fashion image object detection models spanning 20 classes across upper/lower body clothes and footwear.",
       "Extracted dominant colors from detected objects and mapped them to their closest color names.",
       "Deployed the models as REST APIs packaged as dockerized microservices."
+    ]
+  }
+];
+
+const PROJECTS: ProjectEntry[] = [
+  {
+    title: "Understanding Effective and Emotional Components in Advertisements",
+    description:
+      "Explored neural architectures for predicting advertisement effectiveness and affective dimensions (arousal & valence) from multimodal visual data.",
+    date: "2018-05-01",
+    subtext: "Accepted as a paper at the CVPR 2018 Ads Workshop.",
+    links: [
+      {
+        label: "Paper",
+        href: "/assets/Understanding_Emotional_and_Effective_Components_in_Adverstisements.pdf"
+      }
+    ]
+  },
+  {
+    title: "Cartoonizer",
+    description:
+      "An ML-powered app that stylizes real-world images and videos into expressive cartoon visuals.",
+    date: "2020-08-01",
+    image: "/images/cartoonizer_app_banner.png",
+    links: [
+      {
+        label: "GitHub",
+        href: "https://github.com/experience-ml/cartoonize"
+      }
+    ]
+  },
+  {
+    title: "TEASEL: A Transformer-based Speech-Prefixed Language Model",
+    description:
+      "Implementation of the TEASEL paper, demonstrating speech-conditioned Transformer prefixing for efficient multimodal sentiment prediction.",
+    date: "2021-12-01",
+    subtext: "Implementation of a research paper.",
+    links: [
+      {
+        label: "GitHub",
+        href: "https://github.com/tjdevWorks/TEASEL"
+      },
+      {
+        label: "Paper",
+        href: "https://arxiv.org/pdf/2109.05522"
+      }
+    ]
+  },
+  {
+    title: "Exploring the Potential of Federated Learning for Medical Image Analysis in Non-IID Settings",
+    description:
+      "Implemented a federated learning extension of ConVIRT to study privacy-preserving contrastive representation learning for medical image analysis under IID and Non-IID data distributions.",
+    date: "2022-12-01",
+    links: [
+      {
+        label: "GitHub",
+        href: "https://github.com/tjdevWorks/ConVIRT-Federated"
+      },
+      {
+        label: "Paper",
+        href: "/assets/ML_Healthcare.pdf"
+      }
+    ]
+  },
+  {
+    title: "Helios AI (xAI Hackathon)",
+    description:
+      "Helios AI transforms solar farms from reactive assets into self-monitoring, self-diagnosing systems dramatically reducing inspection time and unlocking continuous, autonomous operations.",
+    date: "2025-12-01",
+    links: [
+      {
+        label: "Project Page",
+        href: "https://devpost.com/software/helios-ai"
+      },
+      {
+        label: "YouTube",
+        href: "https://youtu.be/43ytCqKj-ds"
+      }
     ]
   }
 ];
@@ -310,12 +401,66 @@ function sourceIcon(source: ExternalSource) {
 
 export const metadata = buildMetadata({ canonicalPath: "/" });
 
-export default function HomePage() {
+function parseGithubRepo(url: string): string | null {
+  const match = url.match(/^https?:\/\/github\.com\/([^/]+)\/([^/?#]+)/i);
+  if (!match) {
+    return null;
+  }
+
+  return `${match[1]}/${match[2].replace(/\.git$/i, "")}`;
+}
+
+async function fetchGithubStars(repo: string): Promise<number | null> {
+  try {
+    const response = await fetch(`https://api.github.com/repos/${repo}`, {
+      headers: {
+        Accept: "application/vnd.github+json"
+      },
+      next: { revalidate: 21600 }
+    });
+
+    if (!response.ok) {
+      return null;
+    }
+
+    const data = (await response.json()) as { stargazers_count?: number };
+    return typeof data.stargazers_count === "number" ? data.stargazers_count : null;
+  } catch {
+    return null;
+  }
+}
+
+function formatStars(value: number): string {
+  if (value >= 1000) {
+    const compact = value / 1000;
+    return `${compact >= 10 ? compact.toFixed(0) : compact.toFixed(1)}k`;
+  }
+
+  return `${value}`;
+}
+
+export default async function HomePage() {
   const profile = getSiteProfile();
   const socials = getSocialConfig();
-  const projects = getAllProjects().slice(0, 4).map((entry) => entry.frontmatter);
   const posts = getAllBlogPosts().slice(0, 4).map((entry) => entry.frontmatter);
   const resume = getResumeMetadata();
+  const projects = [...PROJECTS].sort(
+    (left, right) => new Date(right.date).getTime() - new Date(left.date).getTime()
+  );
+
+  const githubRepos = Array.from(
+    new Set(
+      projects
+        .flatMap((project) => project.links)
+        .map((link) => parseGithubRepo(link.href))
+        .filter((repo): repo is string => repo !== null)
+    )
+  );
+
+  const githubStarsEntries = await Promise.all(
+    githubRepos.map(async (repo) => [repo, await fetchGithubStars(repo)] as const)
+  );
+  const githubStars = new Map<string, number | null>(githubStarsEntries);
 
   return (
     <div className="grid gap-10 lg:grid-cols-[300px_1fr]">
@@ -331,7 +476,9 @@ export default function HomePage() {
           <h1 className="mt-5 font-serif text-4xl font-semibold leading-tight md:text-[2.55rem]">{profile.config.siteName}</h1>
           {profile.config.pronouns ? <p className="mt-1 text-sm text-muted">({profile.config.pronouns})</p> : null}
           {profile.config.headline ? (
-            <p className="mt-4 max-w-[18rem] text-xl font-semibold leading-snug text-accent md:text-2xl">{profile.config.headline}</p>
+            <p className="mx-auto mt-4 max-w-[18rem] text-xl font-semibold leading-snug text-accent md:text-2xl lg:mx-0">
+              {profile.config.headline}
+            </p>
           ) : null}
           {profile.config.company ? <p className="mt-2 text-base text-muted">{profile.config.company}</p> : null}
 
@@ -433,16 +580,48 @@ export default function HomePage() {
 
         <section id="projects">
           <SectionTitle icon={iconProjects()} title="Projects" />
-          <div className="mt-4 divide-y divide-border/40 border-t border-border/40">
+          <div className="mt-5 grid gap-4 md:grid-cols-2">
             {projects.map((project) => (
-              <article key={project.slug} className="py-4">
-                <h3 className="text-lg font-semibold">
-                  <a className="hover:text-accent" href={`/projects/${project.slug}`}>
-                    {project.title}
-                  </a>
-                </h3>
-                {project.description ? <p className="mt-1 text-sm text-muted">{project.description}</p> : null}
-                <p className="mt-1 text-xs text-muted">{formatDate(project.date)}</p>
+              <article key={project.title} className="overflow-hidden rounded-2xl border border-border/35 bg-card/65">
+                {project.image ? (
+                  <img
+                    alt={`${project.title} banner`}
+                    className="h-40 w-full object-cover"
+                    height={160}
+                    loading="lazy"
+                    src={project.image}
+                    width={640}
+                  />
+                ) : null}
+                <div className="p-5">
+                  <p className="text-xs uppercase tracking-[0.12em] text-muted">{formatDate(project.date)}</p>
+                  <h3 className="mt-2 text-lg font-semibold leading-snug">{project.title}</h3>
+                  <p className="mt-2 text-sm text-muted">{project.description}</p>
+                  {project.subtext ? <p className="mt-2 text-xs font-medium text-accent">{project.subtext}</p> : null}
+
+                  <div className="mt-4 flex flex-wrap gap-2.5">
+                    {project.links.map((link) => {
+                      const repo = parseGithubRepo(link.href);
+                      const stars = repo ? githubStars.get(repo) : null;
+                      const label =
+                        link.label === "GitHub" && typeof stars === "number"
+                          ? `${link.label} (${formatStars(stars)} stars)`
+                          : link.label;
+
+                      return (
+                      <a
+                        key={`${project.title}-${link.label}`}
+                        className="inline-flex items-center rounded-full border border-accent/45 bg-accent/10 px-3 py-1.5 text-xs font-semibold text-accent hover:bg-accent/20"
+                        href={link.href}
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        {label}
+                      </a>
+                      );
+                    })}
+                  </div>
+                </div>
               </article>
             ))}
           </div>
