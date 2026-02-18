@@ -41,7 +41,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           {children}
         </main>
         <Footer copyrightName={site.siteName} socials={socials} />
-        <AnalyticsPlaceholder enabled={false} />
+        <AnalyticsPlaceholder enabled measurementId="G-2ZD6LJBMN7" />
       </body>
     </html>
   );
