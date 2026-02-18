@@ -41,14 +41,14 @@ type ProjectEntry = {
 
 const EDUCATION: EducationEntry[] = [
   {
-    degree: "MS in Computer Science",
+    degree: "Masters in Computer Science",
     graduation: "May 2023",
     institution: "New York University (Courant Institute of Mathematical Sciences)",
     gpa: "3.8/4.0",
     certificatePath: "/assets/MS_Degree_Certificate_Tejas_Mahajan.pdf"
   },
   {
-    degree: "BE in Computer Engineering",
+    degree: "Bachelors in Computer Engineering",
     graduation: "May 2018",
     institution: "University of Pune (Maharashtra Institute of Technology)",
     gpa: "3.8/4.0",
@@ -74,9 +74,9 @@ const EXPERIENCE: ExperienceEntry[] = [
     location: "San Francisco, USA",
     period: "July 2023 - Present",
     highlights: [
-      "Migrated equity reference and end-of-day pricing pipelines to a new provider platform with zero downtime.",
-      "Built a scalable options data platform with ingestion, monitoring, and a unified access layer for multi-asset index development.",
-      "Automated validation checks for end-of-day prices and corporate actions across providers, improving consistency and override control."
+      "Engineered the migration of equity reference and end-of-day pricing pipelines to a new provider platform, ensuring uninterrupted data delivery for index calculations with zero downtime.",
+      "Led the development of a scalable options data platform, defining the data model, building ingestion and monitoring systems, and partnering with product, data providers, and financial engineers to resolve complex data integrity challenges. Delivered a unified data access layer that powers multi-asset index development and self-service analytics across teams",
+      "Transformed operations workflow by developing automated validation checks for end-of-day prices and corporate action data across multiple providers. Enhanced data accuracy and consistency with customizable override capabilities.",
     ]
   },
   {
@@ -85,8 +85,8 @@ const EXPERIENCE: ExperienceEntry[] = [
     location: "South San Francisco, USA",
     period: "June 2022 - Aug 2022",
     highlights: [
-      "Analyzed large flight-data corpora to identify spatial and temporal causes of false positives between airborne and ground objects.",
-      "Fine-tuned intruder detection models with hard negatives to reduce false positives while preserving sensitivity."
+      "Performed in-depth analysis of a vast flight data corpus to uncover spatial and temporal correlations, successfully identifying likely sources of false positives between airborne and ground-based objects.",
+      "Fine tuned the intruder detection models by strategically integrating hard negative samples, leading to a decrease in false positives while preserving optimal sensitivity."
     ]
   },
   {
@@ -95,9 +95,9 @@ const EXPERIENCE: ExperienceEntry[] = [
     location: "Mumbai, India",
     period: "Sept 2018 - Mar 2020",
     highlights: [
-      "Delivered an end-to-end OCR pipeline for KYC documents using synthetic data generation, validation, and training modules.",
-      "Built a lightweight CTC-based text recognition reformulation to improve latency-versus-quality trade-offs.",
-      "Shipped deep learning inference on AWS Lambda and GPU instances with compute, memory, and latency optimization."
+      "Successfully delivered an end to end OCR Pipeline for the KYC Documents by implementing a robust synthetic data generation pipeline, model validation, hypothesis testing and training modules for text recognition, card detection and text detection tasks.", 
+      "Developed a light weight reformulation of fixed length text recognition model using the CTC framework by progressively optimizing the model towards bridging the latency vs task specific evaluation metric trade-off.", 
+      "Engineered the first deployment of deep learning models across AWS Lambda serverless functions and GPU instances, meticulously optimizing for compute, memory, and response time requirements"
     ]
   },
   {
@@ -106,9 +106,9 @@ const EXPERIENCE: ExperienceEntry[] = [
     location: "New Delhi, India",
     period: "Aug 2018 - Mar 2019",
     highlights: [
-      "Developed and fine-tuned fashion image object detection models spanning 20 classes across upper/lower body clothes and footwear.",
-      "Extracted dominant colors from detected objects and mapped them to their closest color names.",
-      "Deployed the models as REST APIs packaged as dockerized microservices."
+      "Implemented and fine-tuned the Retina-Net object detection network to detect 20 objects comprising garments and footwear. Obtained a mean average precision of 80 on the test dataset.",
+      "Extracted the colour of detected object using image processing functions and mapped the colour to its appropriate shade name.",
+      "Enhanced the user’s visual experience with detected objects image tags overlaid on the image and the generated metadata used to improve the underlying search algorithms."
     ]
   }
 ];
@@ -131,12 +131,21 @@ const PROJECTS: ProjectEntry[] = [
     title: "Cartoonizer",
     description:
       "An ML-powered app that stylizes real-world images and videos into expressive cartoon visuals.",
+    subtext: "It was used by over 200k+ users and to cartoonize a short film called The Black Disquistion.",
     date: "2020-08-01",
     image: "/images/cartoonizer_app_banner.png",
     links: [
       {
         label: "GitHub",
         href: "https://github.com/experience-ml/cartoonize"
+      },
+      {
+        label: "Reddit (InternetIsBeautiful)",
+        href: "https://www.reddit.com/r/InternetIsBeautiful/comments/n66ias/a_online_cartoonizervectorizer_tool/"
+      },
+      {
+        label: "Award Winning The Black Disquistion",
+        href: "https://www.instagram.com/theblackdisquisition/"
       }
     ]
   },
@@ -200,7 +209,7 @@ type AccomplishmentEntry = {
 const ACCOMPLISHMENTS: AccomplishmentEntry[] = [
   {
     title: "Deep Learning Auto Tagging Competition (HackerEarth)",
-    details: ["Competitive challenge on automatic image tagging."],
+    details: ["Secured 1st place in a deep learning challenge to build a model that auto-tags gala images with relevant labels."],
     links: [
       {
         label: "Leaderboard",
@@ -210,7 +219,7 @@ const ACCOMPLISHMENTS: AccomplishmentEntry[] = [
   },
   {
     title: "Udacity Artificial Intelligence Nanodegree",
-    details: ["Credential and full course information."],
+    details: [""],
     links: [
       {
         label: "Certificate",
@@ -224,7 +233,7 @@ const ACCOMPLISHMENTS: AccomplishmentEntry[] = [
   },
   {
     title: "Udacity Deep Learning Nanodegree",
-    details: ["Credential and full course information."],
+    details: [""],
     links: [
       {
         label: "Certificate",
