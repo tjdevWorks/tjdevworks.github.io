@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
+import { Suspense } from "react";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { SkipLink } from "@/components/layout/SkipLink";
@@ -41,7 +42,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           {children}
         </main>
         <Footer copyrightName={site.siteName} socials={socials} />
-        <AnalyticsPlaceholder enabled measurementId="G-2ZD6LJBMN7" />
+        <Suspense fallback={null}>
+          <AnalyticsPlaceholder enabled measurementId="G-2ZD6LJBMN7" />
+        </Suspense>
       </body>
     </html>
   );
