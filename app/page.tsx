@@ -69,10 +69,20 @@ const INTERESTS = [
 
 const EXPERIENCE: ExperienceEntry[] = [
   {
+    role: "Software Engineer (Data & Infrastructure Team)",
+    company: "Nimble Robotics, Inc",
+    location: "San Francisco, USA",
+    period: "March 2026 - Present",
+    highlights: [
+      "Re-engineered a legacy BizOps warehouse-operations dashboard into a documented, stakeholder-aligned, and performant medallion pipelined datasets, codifying ad-hoc metric definitions into parity-validated bronze/silver/gold pipelines and cutting monthly compute spend roughly 10x.",
+      "Architected the real-time data plane behind the live warehouse-operations control surface, shipping a production Rust streaming backend with typed event contracts, supervised SSE broadcast fan-out, GraphQL data integration, and end-to-end Kubernetes and API deployment wiring."
+    ]
+  },
+  {
     role: "Software Engineer (Data Team)",
     company: "MerQube, Inc",
     location: "San Francisco, USA",
-    period: "July 2023 - Present",
+    period: "July 2023 - March 2026",
     highlights: [
       "Engineered the migration of equity reference and end-of-day pricing pipelines to a new provider platform, ensuring uninterrupted data delivery for index calculations with zero downtime.",
       "Led the development of a scalable options data platform, defining the data model, building ingestion and monitoring systems, and partnering with product, data providers, and financial engineers to resolve complex data integrity challenges. Delivered a unified data access layer that powers multi-asset index development and self-service analytics across teams",
