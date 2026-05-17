@@ -20,6 +20,7 @@ type EducationEntry = {
 type ExperienceEntry = {
   role: string;
   company: string;
+  companyUrl?: string;
   location: string;
   period: string;
   highlights: string[];
@@ -69,10 +70,22 @@ const INTERESTS = [
 
 const EXPERIENCE: ExperienceEntry[] = [
   {
+    role: "Software Engineer (Data & Infrastructure Team)",
+    company: "Nimble Robotics, Inc",
+    companyUrl: "https://www.nimble.ai/",
+    location: "San Francisco, USA",
+    period: "March 2026 - Present",
+    highlights: [
+      "Re-engineered a legacy BizOps warehouse-operations dashboard into a documented, stakeholder-aligned, and performant medallion pipelined datasets, codifying ad-hoc metric definitions into parity-validated bronze/silver/gold pipelines and cutting monthly compute spend roughly 10x.",
+      "Architected the real-time data plane behind the live warehouse-operations control surface, shipping a production Rust streaming backend with typed event contracts, supervised SSE broadcast fan-out, GraphQL data integration, and end-to-end Kubernetes and API deployment wiring."
+    ]
+  },
+  {
     role: "Software Engineer (Data Team)",
     company: "MerQube, Inc",
+    companyUrl: "https://merqube.com/",
     location: "San Francisco, USA",
-    period: "July 2023 - Present",
+    period: "July 2023 - March 2026",
     highlights: [
       "Engineered the migration of equity reference and end-of-day pricing pipelines to a new provider platform, ensuring uninterrupted data delivery for index calculations with zero downtime.",
       "Led the development of a scalable options data platform, defining the data model, building ingestion and monitoring systems, and partnering with product, data providers, and financial engineers to resolve complex data integrity challenges. Delivered a unified data access layer that powers multi-asset index development and self-service analytics across teams",
@@ -82,6 +95,7 @@ const EXPERIENCE: ExperienceEntry[] = [
   {
     role: "Perception Software Intern (Acoustic ML Team)",
     company: "Zipline International",
+    companyUrl: "https://flyzipline.com/",
     location: "South San Francisco, USA",
     period: "June 2022 - Aug 2022",
     highlights: [
@@ -92,6 +106,7 @@ const EXPERIENCE: ExperienceEntry[] = [
   {
     role: "Data Scientist",
     company: "Karza Technologies Pvt. Ltd. (Acquired by Perfios Technologies Pvt. Ltd.)",
+    companyUrl: "https://perfios.ai/",
     location: "Mumbai, India",
     period: "Sept 2018 - Mar 2020",
     highlights: [
@@ -103,6 +118,7 @@ const EXPERIENCE: ExperienceEntry[] = [
   {
     role: "Machine Learning Intern",
     company: "Marsplay (Acquired by Foxy)",
+    companyUrl: "https://www.crunchbase.com/organization/marsplay",
     location: "New Delhi, India",
     period: "Aug 2018 - Mar 2019",
     highlights: [
@@ -572,7 +588,18 @@ export default async function HomePage() {
                 <div className="flex flex-wrap items-start justify-between gap-3">
                   <div>
                     <h3 className="text-2xl font-semibold leading-tight">{entry.role}</h3>
-                    <p className="mt-1 text-lg text-accent">{entry.company}</p>
+                    {entry.companyUrl ? (
+                      <a
+                        className="mt-1 inline-block text-lg text-accent underline underline-offset-4"
+                        href={entry.companyUrl}
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        {entry.company}
+                      </a>
+                    ) : (
+                      <p className="mt-1 text-lg text-accent">{entry.company}</p>
+                    )}
                     <p className="mt-1 text-sm text-muted">{entry.location}</p>
                   </div>
                   <p className="text-sm text-muted">{entry.period}</p>
