@@ -70,14 +70,16 @@ const INTERESTS = [
 
 const EXPERIENCE: ExperienceEntry[] = [
   {
-    role: "Software Engineer (Data & Infrastructure Team)",
+    role: "Software Engineer (Data & ML Infrastructure Team)",
     company: "Nimble Robotics, Inc",
     companyUrl: "https://www.nimble.ai/",
     location: "San Francisco, USA",
     period: "March 2026 - Present",
     highlights: [
+      "Built a real-time data pipeline that streams high-frequency arm telemetry and multi-camera video from warehouse robot stations into a central store, so every demonstration can be searched within seconds of recording. Scaled it from one pilot station to the whole collection fleet, and the training corpus grew 4x within a month of rollout.",
+      "Shaping the ML platform as a product for the robot learning team, turning researcher needs into the end-to-end workflow for filtering demonstrations, building versioned and reproducible training datasets, and tracking quality. After launch, training runs and trained models grew 5x within a month.",
+      "Developed the hardware configuration and calibration modules for robot station setup and health checks. Stations now check their arms, grippers, cameras, pedals and motion trackers on their own, and every recording is tied to a verified calibration.",
       "Re-engineered a legacy BizOps warehouse-operations dashboard into a documented, stakeholder-aligned, and performant medallion pipelined datasets, codifying ad-hoc metric definitions into parity-validated bronze/silver/gold pipelines and cutting monthly compute spend roughly 10x.",
-      "Architected the real-time data plane behind the live warehouse-operations control surface, shipping a production Rust streaming backend with typed event contracts, supervised SSE broadcast fan-out, GraphQL data integration, and end-to-end Kubernetes and API deployment wiring."
     ]
   },
   {
